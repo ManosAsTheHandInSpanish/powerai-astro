@@ -1,24 +1,24 @@
 ---
 enable: true
 stats_list:
-  - label: "Step Into Real Customer Conversations"
+  - label: "Gagnées chaque semaine sur vos tâches chronophages"
     value:
       prefix: ""
-      number: 10
-      suffix: "x"
-  - label: "Requests Resolved via Automation"
+      number: 9
+      suffix: "h"
+  - label: "de CA en moyenne grâce à nos agents IA de prospection"
     value:
       prefix: ""
-      number: 98
+      number: 20
       suffix: "%"
-  - label: "All-Time Transaction Volume"
+  - label: "Plus de contenu créés sans embaucher"
     value:
       prefix: ""
-      number: 1
-      suffix: "B+"
-  - label: "Support Turnaround Time Reduction"
+      number: 3
+      suffix: "x"
+  - label: "D'erreurs humaines évitées grâce à nos solutions sur mesure"
     value:
       prefix: ""
-      number: 99
+      number: 78
       suffix: "%"
 ---
