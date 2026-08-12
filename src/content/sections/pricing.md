@@ -1,89 +1,74 @@
 ---
 enable: true
-title: Flexible Pricing for Every Stage
-badge: Pricing Plans
-offer_yearly: 35% Off
+title: Quelques cas d'usages et tarifs
+badge: Nos tarifs
+offer_yearly:
 pricing_plans:
-  - name: Standard
-    content: Create, edit, and refine with AI support
+  - name: Onboarding client
+    content: Onboardez vos nouveaux clients sans friction
     price:
       monthly:
-        number: 19
-        prefix: $
-        suffix: /month
-      yearly:
-        number: 190
-        prefix: $
-        suffix: /year
+        number: 2400
+        prefix: ""
+        suffix: "€"
     features:
-      - value: Maximum 1 User Services
+      - value: Synchronisation CRM / plateforme d'onboarding
         include: true
-      - value: Basic Dashboard Access
+      - value: Tableau de bord temps réel
         include: true
-      - value: Limited Integrations
+      - value: Rappels automatiques contrats et paiements
         include: true
-      - value: Multi-language support
-        include: false
-      - value: Community Support
-        include: false
-
+      - value: Aide à la décision basée sur vos KPI
+        include: true
+      - value: Formulaires intelligents
+        include: true
     button:
-      label: Purchase Now
+      label: Nous contacter
       link: /contact
       enable: true
-  - name: Professional
-    content: Your Al companion for flawless writing
+  - name: E-commerce
+    content: Gagnez du temps sur la gestion de votre boutique
     highlighted: true
     price:
       monthly:
-        number: 129
-        prefix: $
-        suffix: /month
-      yearly:
-        number: 1290
-        prefix: $
-        suffix: /year
+        number: 2800
+        prefix: ""
+        suffix: "€"
     features:
-      - value: Maximum 1 User Services
+      - value: Synchro Shopify et CRM/ERP
         include: true
-      - value: Basic Dashboard Access
+      - value: Reporting personnalisé dans votre messagerie
         include: true
-      - value: Limited Integrations
+      - value: Gestion réassorts et fiches produit
         include: true
-      - value: Multi-language support
+      - value: Automatisation des inventaires
         include: true
-      - value: Community Support
-        include: false
-
+      - value: Aide à la décision basée sur vos KPI
+        include: true
     button:
-      label: Purchase Now
+      label: Nous contacter
       link: /contact
       enable: true
-  - name: Enterprise
-    content: Al-enhanced writing, made effortless.
+  - name: Admin & Compta
+    content: Suivi de facturation automatisé
     price:
       monthly:
-        number: 339
-        prefix: $
-        suffix: /month
-      yearly:
-        number: 549
-        prefix: $
-        suffix: /year
+        number: 2400
+        prefix: ""
+        suffix: "€"
     features:
-      - value: Maximum 1 User Services
+      - value: Bases de données
         include: true
-      - value: Basic Dashboard Access
+      - value: Formulaires intelligents
         include: true
-      - value: Limited Integrations
+      - value: Scénarios d'automatisation
         include: true
-      - value: Multi-language support
+      - value: Emails automatiques
         include: true
-      - value: Community Support
+      - value: Gestion des approbations
         include: true
-
     button:
-      label: Purchase Now
+      label: Nous contacter
       link: /contact
       enable: true
 ---

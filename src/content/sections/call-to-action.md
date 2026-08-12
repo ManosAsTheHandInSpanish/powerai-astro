@@ -1,9 +1,9 @@
 ---
 enable: true
-title: "Start building smarter solutions for your business"
-description: "Unlock the full potential of automation, insights, and productivity with PowerAI"
+title: "Vous souhaitez obtenir un devis sur mesure ?"
+description: "Réservez un créneau de 30 min selon vos disponibilités et échangez avec notre agence d'automatisation."
 button:
   enable: true
-  label: "Edit with Sitepins"
-  link: "https://app.sitepins.com/new/clone?name=PoweraiAstro&repository=https://github.com/sitepins/powerai-astro&aff=poweraiastro"
+  label: "Contacter un expert"
+  link: "/contact"
 ---

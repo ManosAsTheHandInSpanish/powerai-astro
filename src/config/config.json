@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Power AI - A Free AI SaaS Website Template built with Astro",
-    "base_url": "https://powerai-astro.pages.dev/",
+    "title": "Ohtomation — Expert automatisation IA à Nantes",
+    "base_url": "https://www.ohtomation.fr/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "137",
     "logo_height": "46",
-    "logo_text": "Power AI"
+    "logo_text": "Ohtomation"
   },
 
   "settings": {
@@ -23,16 +23,16 @@
     "contact_form_action": "#",
     "apply_form_action": "#",
     "newsletter_form_action": "#",
-    "footer_text": "Own traditional and AI search with a powerful platform",
-    "mail": "john@example.com",
-    "phone": "(+1) 123-346-7890",
-    "copyright": "Designed and Developed by [Sitepins - a Git-based CMS for Static Sites.](https://sitepins.com)"
+    "footer_text": "Automatisez vos tâches et décuplez votre productivité",
+    "mail": "contact@ohtomation.fr",
+    "phone": "",
+    "copyright": "© 2024 Ohtomation. Tous droits réservés."
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Edit with Sitepins",
-    "link": "https://app.sitepins.com/new/clone?name=PoweraiAstro&repository=https://github.com/sitepins/powerai-astro&aff=poweraiastro"
+    "label": "Prendre RDV",
+    "link": "https://ohtomation.fillout.com/meet/"
   },
 
   "google_tag_manager": {
@@ -41,13 +41,13 @@
   },
 
   "metadata": {
-    "meta_author": "Sitepins",
+    "meta_author": "Ohtomation",
     "meta_image": "/images/og-image.png",
-    "meta_description": "PowerAI Astro is a free, dark-themed AI SaaS website template built with Astro. It has 15+ pre-built pages, 47 components and shortcodes."
+    "meta_description": "Éliminez les tâches répétitives et décuplez votre productivité grâce à nos solutions d'automatisation sur mesure. Expert IA à Nantes."
   },
 
   "open-remark-comment": {
-    "enable": true,
-    "siteKey": "cmpl2v9m4000104jjmruazes1"
+    "enable": false,
+    "siteKey": ""
   }
 }

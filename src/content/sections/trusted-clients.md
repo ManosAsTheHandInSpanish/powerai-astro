@@ -1,20 +1,20 @@
 ---
 enable: true
-title: Trusted by millions of users
+title: Les outils que nous utilisons
 items:
-  - name: Logo Client 1
+  - name: n8n
     logo: /images/trusted-clients/logo-1.png
     link: "#"
-  - name: Logo Client 2
+  - name: Airtable
     logo: /images/trusted-clients/logo-2.png
     link: "#"
-  - name: Logo Client 3
+  - name: Fillout
     logo: /images/trusted-clients/logo-3.png
     link: "#"
-  - name: Logo Client 4
+  - name: OpenAI
     logo: /images/trusted-clients/logo-4.png
     link: "#"
-  - name: Logo Client 5
+  - name: Supabase
     logo: /images/trusted-clients/logo-5.png
     link: "#"
 ---

@@ -1,20 +1,20 @@
 ---
-title: "Contact Us"
-meta_title: "Contact"
-description: "this is meta description"
+title: "Contact"
+meta_title: "Contact — Ohtomation"
+description: "Parlons de votre projet d'automatisation. Contactez Ohtomation pour un devis sur mesure."
 image: "/images/image-placeholder.png"
 draft: false
 page_header:
-  badge: "Contact Us"
+  badge: "Contact"
   title: |
-    Get in Touch with
+    Parlons de
     <br/>
-    <mark> Our Support Team</mark>
-  subtitle: "Have questions or need assistance? Our team is here to help you with any inquiries you may have."
+    <mark>votre projet</mark>
+  subtitle: "Vous souhaitez automatiser vos processus ? Remplissez le formulaire ci-dessous ou réservez directement un créneau."
 contact_info:
-  title: Contact Information
-  subtitle: Email, call, or complete the form learn how Kion management and governance challenges.
-  phone: "+1 (123) 456-7890"
-  email: "(629) 555-0129"
-  address: "123 Main Street, Anytown, USA"
+  title: Informations de contact
+  subtitle: Réservez un créneau de 30 min pour échanger sur votre projet d'automatisation.
+  phone: ""
+  email: "contact@ohtomation.fr"
+  address: "Nantes, France"
 ---
