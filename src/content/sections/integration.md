@@ -1,6 +1,6 @@
 ---
 enable: true
-title: Supercharge Your Workflow with Top Tools
+title: Nos outils préférés pour réaliser vos solutions sur mesure
 badge: "Integration & Tools"
 list:
   - "/images/integrations/HTML5.svg"
