@@ -130,7 +130,7 @@ const Pricing = ({
                   viewport={{ once: true, margin: "0px", amount: 0.05 }}
                   variants={fadeInUpVariants}
                   ref={toggleRef}
-                  className="relative bg-lighter border border-border/30 px-1.5 py-1.25 rounded-full inline-flex w-max mx-auto gap-2"
+                  className="relative bg-lighter border border-border/30 px-1.5 py-1.25 rounded-full inline-flex w-max mx-auto gap-2" style={{ display: offer_yearly ? "inline-flex" : "none" }}
                   role="tablist"
                   aria-label="Pricing toggle"
                 >
@@ -247,7 +247,7 @@ const Pricing = ({
               viewport={{ once: true, margin: "0px", amount: 0.05 }}
               variants={fadeInUpVariants}
               ref={toggleRef}
-              className="relative bg-lighter border border-border/30 px-1.5 py-1.25 rounded-full inline-flex w-max mx-auto gap-2 mt-8"
+              className="relative bg-lighter border border-border/30 px-1.5 py-1.25 rounded-full inline-flex w-max mx-auto gap-2 mt-8" style={{ display: offer_yearly ? "inline-flex" : "none" }}
               role="tablist"
               aria-label="Pricing toggle"
             >
