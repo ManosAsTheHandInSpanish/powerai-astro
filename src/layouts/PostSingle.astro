@@ -48,26 +48,26 @@ if (headings) {
           <div
             class="flex flex-col justify-center gap-5 p-5 w-70 bg-card/70 border border-border/6 rounded-2xl"
           >
-            <p class="font-primary font-normal text-base text-gray">Author</p>
+            <p class="font-primary font-normal text-base text-gray">Auteur</p>
             <p class="font-primary font-medium text-xl text-text">
-              {author?.name || "Unknown"}
+              {author?.name || "Inconnu"}
             </p>
           </div>
           <div
             class="flex flex-col justify-center gap-5 p-5 w-70 bg-card/70 border border-border/6 rounded-2xl"
           >
             <p class="font-primary font-normal text-[16px] text-gray">
-              Category
+              Catégorie
             </p>
             <p class="font-primary font-medium text-xl text-text">
-              {category || "Uncategorized"}
+              {category || "Non catégorisé"}
             </p>
           </div>
           <div
             class="flex flex-col justify-center gap-5 p-5 w-70 bg-card/70 border border-border/6 rounded-2xl"
           >
             <p class="font-primary font-normal text-[16px] text-gray">
-              Read Time
+              Temps de lecture
             </p>
             <p class="font-primary font-medium text-xl text-text">{readTime}</p>
           </div>
@@ -75,10 +75,10 @@ if (headings) {
             class="flex flex-col justify-center gap-5 p-5 w-70 bg-card/70 border border-border/6 rounded-2xl"
           >
             <p class="font-primary font-normal text-[16px] text-gray">
-              Published Date
+              Date de publication
             </p>
             <p class="font-primary font-medium text-xl text-text">
-              {date ? dateFormat(date) : "Unknown"}
+              {date ? dateFormat(date) : "Inconnue"}
             </p>
           </div>
         </div>
@@ -106,7 +106,7 @@ if (headings) {
           <div class="flex flex-col gap-2.5 lg:pr-12 sticky top-32">
             <div class="border border-border/6 bg-card/70 p-8 rounded-2xl">
               <h3 class="font-primary font-medium text-xl text-text mb-8">
-                Inside the page
+                Sommaire
               </h3>
               {
                 toc.length > 0 ? (
@@ -122,7 +122,7 @@ if (headings) {
                               : "pl-9";
                       return (
                         <li class={indentClass}>
-                          <a
+                          
                             href={`#${item.slug}`}
                             class="font-primary text-[15px] leading-6 text-gray hover:text-text transition-colors duration-200 wrap-break-word"
                           >
@@ -134,14 +134,14 @@ if (headings) {
                   </ul>
                 ) : (
                   <p class="font-primary text-[15px] leading-6 text-gray">
-                    No headings available in this post.
+                    Pas de sommaire disponible.
                   </p>
                 )
               }
             </div>
             <div class="border border-border/6 bg-card/70 p-8 rounded-2xl">
               <h3 class="font-primary font-medium text-xl text-text mb-8">
-                Share this
+                Partager
               </h3>
               <Share
                 title={title}
@@ -151,26 +151,13 @@ if (headings) {
               />
             </div>
             <div class="border border-border/6 bg-card/70 p-8 rounded-2xl">
-              <h3 class="font-primary font-medium text-xl text-text mb-8">
-                Subscribe for newsletter
+              <h3 class="font-primary font-medium text-xl text-text mb-4">
+                Un projet d'automatisation ?
               </h3>
-              <form
-                class="flex flex-col gap-4"
-                method="POST"
-                action={config.params.newsletter_form_action}
+              <p class="text-gray text-sm mb-6">Échangez avec nous sur vos besoins en automatisation et IA.</p>
+              <a href="/contact" class="w-full px-7.5 py-3.5 btn btn-primary block text-center"
+                >Nous contacter</a
               >
-                <div class="relative">
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    required
-                    class="w-full px-7.5 py-3 bg-transparent border border-border/6 rounded-[120px] font-primary font-normal text-[16px] text-text placeholder:text-gray focus:outline-none focus:border-primary/50 transition-colors duration-200"
-                  />
-                </div>
-                <button class="w-full px-7.5 py-3.5 btn btn-primary"
-                  >Subscribe</button
-                >
-              </form>
             </div>
           </div>
         </div>
@@ -201,7 +188,7 @@ if (headings) {
       <MainContainer>
         <div class="container-padding-x py-14">
           <h2 class="font-primary font-semibold text-3xl text-text text-center mb-10">
-            Related Blogs
+            Articles similaires
           </h2>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2.5">
             {relatedPosts.map((relatedPost: any) => (
