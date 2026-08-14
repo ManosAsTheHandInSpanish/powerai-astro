@@ -15,7 +15,7 @@ list:
   - "/images/integrations/X.svg"
   - "/images/integrations/Mailchimp.svg"
 button:
-  enable: false
-  label: Explore Integrations
-  link: "/integrations"
+  enable: true
+  label: Discutons en
+  link: "/contact"
 ---
