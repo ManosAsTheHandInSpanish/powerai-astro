@@ -12,7 +12,7 @@ banner:
   button_dark:
     enable: true
     label: "En savoir plus"
-    link: "/about"
+    link: "/tarifs"
   button_primary:
     enable: true
     label: "Nous contacter"
