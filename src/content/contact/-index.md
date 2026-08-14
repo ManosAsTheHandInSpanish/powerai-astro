@@ -14,7 +14,4 @@ page_header:
 contact_info:
   title: Informations de contact
   subtitle: Réservez un créneau de 30 min pour échanger sur votre projet d'automatisation.
-  phone: ""
-  email: "contact@ohtomation.fr"
-  address: "Nantes, France"
 ---
