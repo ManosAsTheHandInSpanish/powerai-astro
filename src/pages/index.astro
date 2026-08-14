@@ -12,7 +12,6 @@ import Testimonials from "@/partials/Testimonials";
 import TrustedClients from "@/partials/TrustedClients";
 import WhyChooseUs from "@/partials/WhyChooseUs.astro";
 import { getListPage } from "@/lib/contentParser";
-
 const homepage = await getListPage("homepage/-index.md");
 const trusted_clients = await getListPage("sections/trusted-clients.md");
 const key_features = await getListPage("sections/key-features.md");
@@ -26,11 +25,10 @@ const callToAction = await getListPage("sections/call-to-action.md");
 const statistics = await getListPage("sections/statistics.md");
 const { banner } = homepage.frontmatter;
 ---
-
 <Base>
   <Hero data={banner} />
-  <TrustedClients data={trusted_clients} client:visible />
-  <KeyFeatures data={key_features} />
+  <!-- <TrustedClients data={trusted_clients} client:visible /> -->
+  <!-- <KeyFeatures data={key_features} /> -->
   <Statistics data={statistics} client:visible />
   <EssentialFeatures data={essential_features} />
   <WhyChooseUs data={whyChooseUs} />
