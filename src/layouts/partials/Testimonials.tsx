@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 
 import ImageFallback from "@/helpers/ImageFallback";
@@ -12,8 +11,8 @@ type TestimonialItem = {
   content: string;
   company: {
     name?: string;
-    logo: string;
-    link: string;
+    logo?: string;
+    link?: string;
   };
 };
 
@@ -23,14 +22,13 @@ interface PageData {
   frontmatter: {
     enable?: boolean;
     testimonials?: TestimonialItem[];
-    // Legacy single-item shape (kept for backward compatibility)
     name?: string;
     avatar?: string;
     content?: string;
     company?: {
       name?: string;
-      logo: string;
-      link: string;
+      logo?: string;
+      link?: string;
     };
   };
 }
@@ -169,42 +167,14 @@ const Testimonials = ({ data }: { data: PageData }) => {
                         )}
                       />
                       <div>
-                        <a
-                          href={activeTestimonial.company.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ImageFallback
-                            src={activeTestimonial.company.logo}
-                            alt={
-                              activeTestimonial.company?.name || "Company Logo"
-                            }
-                            width={164}
-                            height={40}
-                            className="h-10 object-contain mb-4"
-                          />
-                          <div className=" text-text/70 text-xl mb-2 font-medium">
+                        <div className="text-text text-xl mb-2 font-medium">
+                          {activeTestimonial.name}
+                        </div>
+                        {activeTestimonial.company?.name && (
+                          <div className="text-gray text-base">
                             {activeTestimonial.company.name}
                           </div>
-
-                          <div className="flex items-center gap-px mt-2">
-                            {Array.from({ length: 5 }).map((_, index) => (
-                              <svg
-                                key={index}
-                                width="18"
-                                height="17"
-                                viewBox="0 0 18 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M8.29981 0.276289C8.41955 -0.0922356 8.94092 -0.0922353 9.06066 0.276289L10.8356 5.73891C10.8891 5.90372 11.0427 6.0153 11.216 6.0153H16.9597C17.3472 6.0153 17.5083 6.51115 17.1948 6.73891L12.5481 10.115C12.4079 10.2168 12.3492 10.3974 12.4028 10.5622L14.1777 16.0248C14.2974 16.3933 13.8756 16.6998 13.5621 16.472L8.91535 13.0959C8.77516 12.9941 8.58532 12.9941 8.44512 13.0959L3.79834 16.472C3.48486 16.6998 3.06307 16.3933 3.18281 16.0248L4.95772 10.5622C5.01127 10.3974 4.9526 10.2168 4.81241 10.115L0.165631 6.73891C-0.147855 6.51114 0.013256 6.0153 0.400745 6.0153H6.14448C6.31777 6.0153 6.47135 5.90371 6.5249 5.73891L8.29981 0.276289Z"
-                                  fill="#E89700"
-                                />
-                              </svg>
-                            ))}
-                          </div>
-                        </a>
+                        )}
                       </div>
                     </motion.div>
                   </AnimatePresence>
