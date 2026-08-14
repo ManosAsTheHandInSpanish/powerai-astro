@@ -2,14 +2,14 @@
 enable: true
 testimonials:
   - name: Antoine Sebag
-    avatar: "/images/avatars/avatar-1.jpg"
+    avatar: "/images/avatars/antoine_sebag.png"
     company:
       name: "Directeur commercial"
       link: "#"
     content: Leur solution de gestion de la lead Gen nous a permis de signer 28% de contrats en plus sur l'année. Leur accompagnement et leur compréhension du business a été un vrai plus !!! Je recommande.
 
   - name: Isabelle Retondeau
-    avatar: "/images/avatars/avatar-2.jpg"
+    avatar: "/images/avatars/isabelle_retondeau.png"
     company:
       name: "Ostéopathe"
       link: "#"
@@ -23,14 +23,14 @@ testimonials:
     content: Grâce à Ohtomation j'ai pu gagner 3 jours par mois dans la classification et l'ordonnancement de mes dossiers au cabinet.
 
   - name: Frédéric Schneider
-    avatar: "/images/avatars/avatar-1.jpg"
+    avatar: "/images/avatars/frederic_schneider.jpeg"
     company:
       name: "Directeur marketing"
       link: "#"
     content: La solution de création de contenu proposée par Emmanuel nous a permis de passer de 3K abonnés à 12,5K abonnés en 4 mois sur LinkedIn.
 
   - name: Jérôme Boulonnois
-    avatar: "/images/avatars/avatar-2.jpg"
+    avatar: "/images/avatars/jerome_boulonnois.webp"
     company:
       name: "Bureau d'études et d'ingénierie"
       link: "#"
