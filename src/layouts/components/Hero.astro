@@ -80,21 +80,7 @@ const { data } = Astro.props;
           </div>
         </div>
 
-        <!-- IMAGE -->
-        <div
-          id="hero-image"
-          class="mt-30 bg-dark/45 backdrop-blur-2xl p-5 relative z-1"
-        >
-          <ImageMod
-            src={data.image}
-            alt="banner"
-            width={1360}
-            height={800}
-            fetchpriority="high"
-            loading="eager"
-            class="object-cover w-full h-auto"
-          />
-        </div>
+        <!-- IMAGE masquée -->
       </div>
     </div>
   </div>
@@ -116,7 +102,6 @@ const { data } = Astro.props;
     const title = document.getElementById("hero-title");
     const content = document.getElementById("hero-content");
     const buttons = document.getElementById("hero-buttons");
-    const heroImage = document.getElementById("hero-image");
     const heroShape = document.getElementById("hero-shape");
     if (badge) {
       badge.style.opacity = "0";
@@ -148,14 +133,6 @@ const { data } = Astro.props;
         buttons,
         { opacity: [0, 1], transform: ["translateY(20px)", "translateY(0)"] },
         { ...smooth, duration: 0.5, delay: 0.6 },
-      );
-    }
-    if (heroImage) {
-      heroImage.style.opacity = "0";
-      animate(
-        heroImage,
-        { opacity: [0, 1], transform: ["translateY(40px)", "translateY(0)"] },
-        { ...smooth, duration: 1.2, delay: 0.4 },
       );
     }
     if (heroShape) {
