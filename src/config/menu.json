@@ -2,7 +2,7 @@
   "main": [
     {
       "name": "Automatisations",
-      "url": "/pricing"
+      "url": "/tarifs"
     },
     {
       "name": "Blog",
@@ -10,7 +10,7 @@
     },
     {
       "name": "À propos",
-      "url": "/about"
+      "url": "/a-propos"
     }
   ],
   "footer_company": [
@@ -20,11 +20,11 @@
     },
     {
       "name": "Automatisations",
-      "url": "/pricing"
+      "url": "/tarifs"
     },
     {
       "name": "À propos",
-      "url": "/about"
+      "url": "/a-propos"
     },
     {
       "name": "Blog",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Étude de cas",
-      "url": "/case-studies"
+      "url": "/etude-de-cas"
     },
     {
       "name": "Contact",
