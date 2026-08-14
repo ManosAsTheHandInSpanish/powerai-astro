@@ -5,7 +5,7 @@ subtitle: Trouvez les réponses à vos questions sur comment mettre en place des
 badge: Questions les plus fréquemments posés
 
 faq_list:
-- question: Par où commencer quand on veut automatiser ?
+  - question: Par où commencer quand on veut automatiser ?
     answer: On démarre par un audit de 30 minutes pour identifier vos tâches répétitives les plus chronophages. On priorise ensemble les quick wins — les automatisations simples qui vous font gagner du temps dès la première semaine.
 
   - question: Combien de temps faut-il pour mettre en place une automatisation ?
