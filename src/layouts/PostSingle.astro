@@ -28,8 +28,10 @@ const toc: { level: number; text: string; slug: string }[] = [];
 if (headings) {
   for (let i = 0; i < headings.length; i++) {
     const { depth: level, text } = headings[i];
-    const headingSlug = slug(text) || `section-${i + 1}`;
-    toc.push({ level, text, slug: headingSlug });
+    if (level <= 2) {
+      const headingSlug = slug(text) || `section-${i + 1}`;
+      toc.push({ level, text, slug: headingSlug });
+    }
   }
 }
 ---
