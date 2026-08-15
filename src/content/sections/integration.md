@@ -1,7 +1,7 @@
 ---
 enable: true
 title: Nos outils préférés pour réaliser vos solutions sur mesure
-badge: "Integration & Tools"
+badge: "Intégrations & Outils"
 list:
   - "/images/integrations/HTML5.svg"
   - "/images/integrations/JS.svg"

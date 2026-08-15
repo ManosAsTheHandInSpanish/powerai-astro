@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Ohtomation — Expert automatisation IA à Nantes",
-    "base_url": "https://www.ohtomation.fr/",
+    "base_url": "https://www.ohtomation.fr",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
