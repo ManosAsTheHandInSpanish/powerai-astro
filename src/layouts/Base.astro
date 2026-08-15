@@ -146,6 +146,123 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
     <meta name="twitter:card" content="summary_large_image" />
     <ClientRouter />
+
+    <!-- Schema JSON-LD Organisation -->
+    <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Ohtomation",
+      "description": "Expert en automatisation et intelligence artificielle à Nantes. Solutions sur mesure pour les TPE et PME.",
+      "url": "https://www.ohtomation.fr",
+      "logo": "https://www.ohtomation.fr/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rezé",
+        "addressRegion": "Loire-Atlantique",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 47.1784,
+        "longitude": -1.5546
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "France"
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Emmanuel Kouratoras"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/kouratoras/"
+      ],
+      "serviceType": [
+        "Automatisation des processus",
+        "Intelligence artificielle",
+        "Agents IA",
+        "Génération de leads",
+        "Automatisation e-commerce",
+        "NoCode"
+      ],
+      "priceRange": "€€"
+    }
+    </script>
+
+    <!-- Schema JSON-LD FAQ -->
+    <script type="application/ld+json" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Par où commencer quand on veut automatiser ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On démarre par un audit de 30 minutes pour identifier vos tâches répétitives les plus chronophages. On priorise ensemble les quick wins — les automatisations simples qui vous font gagner du temps dès la première semaine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de temps faut-il pour mettre en place une automatisation ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entre 1 et 4 semaines selon la complexité. Un workflow simple (relances email, synchronisation CRM) peut être opérationnel en quelques jours. Un projet complet (onboarding client, gestion e-commerce) prend 2 à 4 semaines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que l'automatisation va remplacer mes employés ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. L'automatisation supprime les tâches répétitives pour que vos équipes se concentrent sur ce qui a de la valeur — la relation client, la stratégie, la créativité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels outils utilisez-vous ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Principalement n8n, Make, Airtable, Fillout et des API d'intelligence artificielle (OpenAI, Google AI). On s'adapte aussi à vos outils existants — CRM, ERP, Shopify, messagerie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien ça coûte ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nos solutions démarrent à partir de 2 400€ selon le cas d'usage. Chaque devis est sur mesure et adapté à vos besoins réels. L'investissement est généralement rentabilisé en moins de 3 mois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que ça fonctionne pour une petite entreprise ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "C'est justement là que l'impact est le plus fort. Une PME de 5 à 50 personnes qui automatise ses relances, son onboarding ou sa facturation peut récupérer plusieurs jours par mois — sans recruter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que mes données sont en sécurité ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Les outils utilisés respectent le RGPD. Vos données ne sont jamais partagées avec des tiers. Les automatisations tournent sur des serveurs sécurisés et les accès sont strictement contrôlés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la différence entre Ohtomation et une agence web classique ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Une agence web construit des sites. Ohtomation connecte vos outils entre eux et automatise vos processus métier — prospection, onboarding, facturation, gestion de stock."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
