@@ -9,7 +9,7 @@ pricing_plans:
     price:
       monthly:
         number: 2400
-        prefix: ""
+        prefix: "à partir de"
         suffix: "€"
     features:
       - value: Synchronisation CRM / plateforme d'onboarding
@@ -32,7 +32,7 @@ pricing_plans:
     price:
       monthly:
         number: 2800
-        prefix: ""
+        prefix: "à partir de"
         suffix: "€"
     features:
       - value: Synchro Shopify et CRM/ERP
@@ -54,7 +54,7 @@ pricing_plans:
     price:
       monthly:
         number: 2400
-        prefix: ""
+        prefix: "à partir de"
         suffix: "€"
     features:
       - value: Bases de données
