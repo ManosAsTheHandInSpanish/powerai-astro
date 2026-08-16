@@ -207,7 +207,7 @@ const Pricing = ({
                           <p className="text-gray mb-3">{plan.content}</p>
                           <div className="flex items-baseline relative">
                             <h3 className="text-h2 price-tag active font-normal text-text" data-price-tag-monthly>
-                              <span className="text-text-light">{plan.price?.monthly?.prefix}</span>
+                              <span className="text-sm text-text-light block mb-1">{plan.price?.monthly?.prefix}</span>
                               {plan.price?.monthly?.number}
                               <span className="text-base text-text-light">{plan.price?.monthly?.suffix}</span>
                             </h3>
@@ -322,7 +322,7 @@ const Pricing = ({
                       <p className="text-gray mb-3">{plan.content}</p>
                       <div className="flex items-baseline relative">
                         <h3 className="text-h2 price-tag active font-normal text-text" data-price-tag-monthly>
-                          <span className="text-text-light">{plan.price?.monthly?.prefix}</span>
+                          <span className="text-sm text-text-light block mb-1">{plan.price?.monthly?.prefix}</span>
                           {plan.price?.monthly?.number}
                           <span className="text-base text-text-light">{plan.price?.monthly?.suffix}</span>
                         </h3>
