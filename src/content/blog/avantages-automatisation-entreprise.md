@@ -23,7 +23,7 @@ Le gain de temps est le premier réflexe quand on automatise, et aussi le plus r
  
 Un workflow automatisé tourne 24h/24, sans pause, sans oubli. Les employés libérés de ces tâches peuvent se concentrer sur ce qui demande du jugement, de la créativité ou de la relation humaine.
  
-En PME, les 5 processus qui offrent le meilleur retour sont : le tri des emails entrants, la qualification des leads, la relance d'impayés, la génération de devis standards et le support client niveau 1. Retrouvez notre article sur [**comment une agence d'automatisation peut accélérer votre croissance**](https://www.ohtomation.fr/agence-automatisation).
+En PME, les 5 processus qui offrent le meilleur retour sont : le tri des emails entrants, la qualification des leads, la relance d'impayés, la génération de devis standards et le support client niveau 1.
  
 ## **Réduire les coûts opérationnels**
  
