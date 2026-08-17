@@ -3,7 +3,7 @@ title: "Automatisation en entreprise : 7 avantages concrets (avec chiffres 2026)
 meta_title: "7 avantages de l'automatisation en entreprise (chiffres 2026)"
 description: "Pourquoi automatiser ses processus en entreprise ? 7 avantages prouvés par les chiffres : productivité, réduction des coûts, qualité, scalabilité. Données 2025-2026 et exemples concrets."
 date: 2026-08-17T05:00:00Z
-image: "/images/blog/blog-1.png"
+image: "/images/blog/avantages-automatisation.png"
 category: "Automatisation"
 author:
   name: "Emmanuel Kouratoras"
