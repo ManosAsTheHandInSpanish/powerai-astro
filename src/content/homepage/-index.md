@@ -15,6 +15,6 @@ banner:
     link: "/tarifs"
   button_primary:
     enable: true
-    label: "Nous contacter"
+    label: "Me contacter"
     link: "/contact"
 ---
