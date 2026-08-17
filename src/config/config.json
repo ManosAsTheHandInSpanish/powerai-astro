@@ -29,8 +29,8 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Prendre RDV",
-    "link": "https://ohtomation.fillout.com/meet/"
+    "label": "Contacter",
+    "link": "/contact"
   },
 
   "google_tag_manager": {
