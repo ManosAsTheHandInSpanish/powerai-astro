@@ -14,7 +14,7 @@ const uid = `cscard-${Math.random().toString(36).slice(2, 8)}`;
 >
   <div class="absolute top-0 left-0 -z-1 size-full bg-radial-purple-dark opacity-0 group-hover:opacity-100 transition-all duration-300" />
   <div class="p-2.5 relative z-2">
-    <a href={`/case-studies/${data.slug}`}>
+    <a href={`/etude-de-cas/${data.slug}`}>
       <div class="rounded-3xl overflow-hidden bg-dark/10 w-full aspect-1150/600 relative">
         {image ? (
           <img
@@ -33,17 +33,17 @@ const uid = `cscard-${Math.random().toString(36).slice(2, 8)}`;
     </a>
   </div>
   <div class="px-5 pt-4 pb-5 flex-col gap-3">
-    <a href={`/case-studies/${data.slug}`}>
+    <a href={`/etude-de-cas/${data.slug}`}>
       <h3 class="font-primary font-medium leading-tight text-h5 text-text hover:text-primary transition-colors duration-200 line-clamp-2">
         {title}
       </h3>
     </a>
     <a
-      href={`/case-studies/${data.slug}`}
+      href={`/etude-de-cas/${data.slug}`}
       class="btn btn-dark mt-10 w-fit group relative overflow-hidden"
     >
       <div class="size-full bg-gradient-primary absolute top-0 left-0 transition-all duration-500 opacity-0 group-hover:opacity-100" />
-      <span class="relative z-2">Read Case Study</span>
+      <span class="relative z-2">Lire l'étude de cas</span>
     </a>
   </div>
 </div>
