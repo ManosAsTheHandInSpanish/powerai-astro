@@ -15,10 +15,6 @@
   ],
   "footer_company": [
     {
-      "name": "Accueil",
-      "url": "/"
-    },
-    {
       "name": "Automatisations",
       "url": "/tarifs"
     },
@@ -27,29 +23,9 @@
       "url": "/a-propos"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
-    }
-  ],
-  "footer_resource": [
-    {
-      "name": "Blog",
-      "url": "/blog"
     },
-    {
-      "name": "Étude de cas",
-      "url": "/etude-de-cas"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    }
-  ],
-  "footer_legal": [
     {
       "name": "Mentions légales",
       "url": "/mentions-legales"
@@ -57,6 +33,34 @@
     {
       "name": "CGV",
       "url": "/cgv"
+    }
+  ],
+  "footer_expertises": [
+    {
+      "name": "Freelance n8n",
+      "url": "/freelance-n8n"
+    },
+    {
+      "name": "Freelance Make",
+      "url": "/freelance-make"
+    },
+    {
+      "name": "Expert Airtable",
+      "url": "/expert-airtable"
+    },
+    {
+      "name": "Automatisation sur mesure",
+      "url": "/freelance-automatisation"
+    }
+  ],
+  "footer_resources": [
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Études de cas",
+      "url": "/etude-de-cas"
     }
   ]
 }
