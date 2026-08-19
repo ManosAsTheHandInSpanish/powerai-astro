@@ -15,7 +15,7 @@ faq_list:
     answer: Non. L'automatisation supprime les tâches répétitives pour que vos équipes se concentrent sur ce qui a de la valeur — la relation client, la stratégie, la créativité. Vos collaborateurs gagnent du temps, pas leur poste.
 
   - question: Quels outils utilisez-vous ?
-    answer: Principalement <a href="/freelance-n8n">n8n</a>, <a href="/freelance-make">Make</a>, <a href="/expert-airtable">Airtable</a>, Fillout et des API d'intelligence artificielle (OpenAI, Google AI). On s'adapte aussi à vos outils existants — CRM, ERP, Shopify, messagerie. <a href="/freelance-automatisation">En savoir plus sur nos expertises</a>.
+    answer: Principalement n8n, Make, Airtable, Fillout et des API d'intelligence artificielle (OpenAI, Claude, Google AI). On s'adapte aussi à vos outils existants — CRM, ERP, Shopify, messagerie.
 
   - question: Faut-il des compétences techniques pour utiliser les automatisations ?
     answer: Non. Les solutions sont conçues pour être utilisées par vos équipes sans formation technique. Vous interagissez via vos outils habituels (email, Slack, Telegram) — l'automatisation travaille en arrière-plan.
